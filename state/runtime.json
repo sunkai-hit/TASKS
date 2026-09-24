@@ -1,0 +1,13 @@
+{
+  "schema_version": "1.0",
+  "running": false,
+  "current_task_id": null,
+  "run_id": null,
+  "run_started_at": null,
+  "heartbeat_at": null,
+  "last_finished_at": null,
+  "last_result": "initialized",
+  "stale_lock_minutes": 90,
+  "executor": "chatgpt",
+  "notes": "Persistent runtime state for TASKS automation."
+}
