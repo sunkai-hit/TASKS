@@ -1,0 +1,42 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "TASKS Queue",
+  "type": "object",
+  "required": ["schema_version", "tasks"],
+  "properties": {
+    "schema_version": {"type": "string"},
+    "updated_at": {"type": ["string", "null"]},
+    "tasks": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "title", "description", "status", "priority", "depends_on", "acceptance_criteria", "checkpoint"],
+        "properties": {
+          "id": {"type": "string", "pattern": "^TASK-[0-9]{8}-[0-9]{3}$"},
+          "title": {"type": "string"},
+          "description": {"type": "string"},
+          "status": {"enum": ["backlog","ready","in_progress","blocked","waiting_user","done","failed","skipped"]},
+          "priority": {"enum": ["P0","P1","P2","P3"]},
+          "order": {"type": "integer"},
+          "depends_on": {"type": "array", "items": {"type": "string"}},
+          "max_attempts": {"type": "integer", "minimum": 1},
+          "attempts": {"type": "integer", "minimum": 0},
+          "acceptance_criteria": {"type": "array", "items": {"type": "string"}},
+          "checkpoint": {
+            "type": "object",
+            "required": ["summary","next_action"],
+            "properties": {
+              "summary": {"type": "string"},
+              "next_action": {"type": "string"},
+              "last_success_at": {"type": ["string","null"]}
+            }
+          },
+          "artifacts": {"type": "array"},
+          "last_error": {"type": ["string","null"]},
+          "blocking_reason": {"type": ["string","null"]},
+          "user_input_needed": {"type": ["string","null"]}
+        }
+      }
+    }
+  }
+}
