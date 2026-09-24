@@ -1,0 +1,32 @@
+{
+  "id": "TASK-YYYYMMDD-001",
+  "title": "任务标题",
+  "description": "明确说明要完成什么，以及最终交付物。",
+  "project": {
+    "name": "项目名称",
+    "repo": "owner/repository",
+    "path": null
+  },
+  "status": "ready",
+  "priority": "P1",
+  "order": 100,
+  "depends_on": [],
+  "created_at": "YYYY-MM-DDTHH:mm:ss+08:00",
+  "updated_at": "YYYY-MM-DDTHH:mm:ss+08:00",
+  "max_attempts": 3,
+  "attempts": 0,
+  "acceptance_criteria": [
+    "可验证的完成条件 1",
+    "可验证的完成条件 2"
+  ],
+  "checkpoint": {
+    "summary": "尚未开始",
+    "next_action": "执行第一步",
+    "last_success_at": null
+  },
+  "artifacts": [],
+  "last_error": null,
+  "blocking_reason": null,
+  "user_input_needed": null,
+  "tags": []
+}
