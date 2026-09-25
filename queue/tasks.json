@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-09-25T17:18:00+08:00",
+  "updated_at": "2026-09-25T17:32:00+08:00",
   "tasks": [
     {
       "id": "TASK-20260925-001",
@@ -67,14 +67,14 @@
         "repo": "sunkai-hit/80-s",
         "path": "chapters/ch08/"
       },
-      "status": "in_progress",
+      "status": "done",
       "priority": "P1",
       "order": 101,
       "depends_on": [
         "TASK-20260925-001"
       ],
       "created_at": "2026-09-25T17:04:00+08:00",
-      "updated_at": "2026-09-25T17:18:00+08:00",
+      "updated_at": "2026-09-25T17:32:00+08:00",
       "max_attempts": 4,
       "attempts": 0,
       "acceptance_criteria": [
@@ -84,11 +84,28 @@
         "已提交至 sunkai-hit/80-s 并在 TASKS checkpoint/artifacts 记录文件链接与提交SHA"
       ],
       "checkpoint": {
-        "summary": "前置第7章《小本子》V1.0已提交；读取第8章情节基线准备续写《郑州》。",
-        "next_action": "写第8章周启毕业分配、与林小梅面对面的商议、郑州研究院新人的完整故事，提交 V1.0 正文及考据记录。",
-        "last_success_at": "2026-09-25T17:18:00+08:00"
+        "summary": "已提交第8章《郑州》完整V1.0正文及1981–82计划分配制度相关作者核验；已修正1982年不必要复印件物件。",
+        "next_action": "等待第7–10章联合终审。",
+        "last_success_at": "2026-09-25T17:32:00+08:00"
       },
-      "artifacts": [],
+      "artifacts": [
+        {
+          "type": "file",
+          "repo": "sunkai-hit/80-s",
+          "ref": "chapters/ch08/manuscript-v1.0.md",
+          "url": "https://github.com/sunkai-hit/80-s/blob/main/chapters/ch08/manuscript-v1.0.md",
+          "commit": "e9455e0535e19f7b1945f9c289b3a3e048567584",
+          "description": "第8章全文（含历史细节微修）"
+        },
+        {
+          "type": "file",
+          "repo": "sunkai-hit/80-s",
+          "ref": "chapters/ch08/research-v1.0.md",
+          "url": "https://github.com/sunkai-hit/80-s/blob/main/chapters/ch08/research-v1.0.md",
+          "commit": "7cb170d2031221d185e86386261373c257d76f15",
+          "description": "第8章作者考据与QA"
+        }
+      ],
       "last_error": null,
       "blocking_reason": null,
       "user_input_needed": null,
@@ -108,14 +125,14 @@
         "repo": "sunkai-hit/80-s",
         "path": "chapters/ch09/"
       },
-      "status": "ready",
+      "status": "in_progress",
       "priority": "P1",
       "order": 102,
       "depends_on": [
         "TASK-20260925-002"
       ],
       "created_at": "2026-09-25T17:04:00+08:00",
-      "updated_at": "2026-09-25T17:04:00+08:00",
+      "updated_at": "2026-09-25T17:32:00+08:00",
       "max_attempts": 4,
       "attempts": 0,
       "acceptance_criteria": [
@@ -125,9 +142,9 @@
         "已提交至 sunkai-hit/80-s 并在 TASKS checkpoint/artifacts 记录文件链接与提交SHA"
       ],
       "checkpoint": {
-        "summary": "已由用户明确授权：按现行第二部分第7—10章完成正式稿；已核对第一部分为第1—6章，当前 v0.2 章结构规定本章标题。",
-        "next_action": "读取 80-s 现行基线、最近正式章节、对应场景链及时代素材；起草并提交第9章《署名》完整初稿，再做史实核验和V1.0修订。",
-        "last_success_at": "2026-09-25T17:04:00+08:00"
+        "summary": "已完成前置第8章，准备第9章周启署名返工、刘建军首次带人、周玲认识陈国强并自己选择、小梅夜校下课与双主线轻松约会。",
+        "next_action": "创作完整《署名》并核验1983–84的图纸职业、初期雇工与城市约会生活，分别入库正文和作者考据。",
+        "last_success_at": "2026-09-25T17:32:00+08:00"
       },
       "artifacts": [],
       "last_error": null,
