@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-09-25T17:06:00+08:00",
+  "updated_at": "2026-09-25T17:18:00+08:00",
   "tasks": [
     {
       "id": "TASK-20260925-001",
@@ -11,12 +11,12 @@
         "repo": "sunkai-hit/80-s",
         "path": "chapters/ch07/"
       },
-      "status": "in_progress",
+      "status": "done",
       "priority": "P1",
       "order": 100,
       "depends_on": [],
       "created_at": "2026-09-25T17:04:00+08:00",
-      "updated_at": "2026-09-25T17:06:00+08:00",
+      "updated_at": "2026-09-25T17:18:00+08:00",
       "max_attempts": 4,
       "attempts": 0,
       "acceptance_criteria": [
@@ -26,11 +26,28 @@
         "已提交至 sunkai-hit/80-s 并在 TASKS checkpoint/artifacts 记录文件链接与提交SHA"
       ],
       "checkpoint": {
-        "summary": "已完成立项与基础资料读取：前六章、两条暗线、现行章节及文风规范，现开始撰写第七章。",
-        "next_action": "继续《小本子》：五个场景，承接第六章结尾王东独立看摊，完成供货判断、赊账、王东独立记录、小梅英语、周玲柜台价格；写入 manuscript-v1.0.md，随后研究核验。",
-        "last_success_at": "2026-09-25T17:04:00+08:00"
+        "summary": "第七章《小本子》V1.0完整正文及作者考据/连续性QA已分别提交到80-s，完成五线自然接力，未提前第8、10章节点。",
+        "next_action": "任务已完成，等待最终第7–10章连读终审。",
+        "last_success_at": "2026-09-25T17:18:00+08:00"
       },
-      "artifacts": [],
+      "artifacts": [
+        {
+          "type": "file",
+          "repo": "sunkai-hit/80-s",
+          "ref": "chapters/ch07/manuscript-v1.0.md",
+          "url": "https://github.com/sunkai-hit/80-s/blob/main/chapters/ch07/manuscript-v1.0.md",
+          "description": "第7章全文",
+          "commit": "f451b7b3de182080a92b434fd489db2d4a038e0c"
+        },
+        {
+          "type": "file",
+          "repo": "sunkai-hit/80-s",
+          "ref": "chapters/ch07/research-v1.0.md",
+          "url": "https://github.com/sunkai-hit/80-s/blob/main/chapters/ch07/research-v1.0.md",
+          "description": "第7章考据与QA",
+          "commit": "830fe26300243217d807d4c49d6cd657d79f4e80"
+        }
+      ],
       "last_error": null,
       "blocking_reason": null,
       "user_input_needed": null,
@@ -50,14 +67,14 @@
         "repo": "sunkai-hit/80-s",
         "path": "chapters/ch08/"
       },
-      "status": "ready",
+      "status": "in_progress",
       "priority": "P1",
       "order": 101,
       "depends_on": [
         "TASK-20260925-001"
       ],
       "created_at": "2026-09-25T17:04:00+08:00",
-      "updated_at": "2026-09-25T17:04:00+08:00",
+      "updated_at": "2026-09-25T17:18:00+08:00",
       "max_attempts": 4,
       "attempts": 0,
       "acceptance_criteria": [
@@ -67,9 +84,9 @@
         "已提交至 sunkai-hit/80-s 并在 TASKS checkpoint/artifacts 记录文件链接与提交SHA"
       ],
       "checkpoint": {
-        "summary": "已由用户明确授权：按现行第二部分第7—10章完成正式稿；已核对第一部分为第1—6章，当前 v0.2 章结构规定本章标题。",
-        "next_action": "读取 80-s 现行基线、最近正式章节、对应场景链及时代素材；起草并提交第8章《郑州》完整初稿，再做史实核验和V1.0修订。",
-        "last_success_at": "2026-09-25T17:04:00+08:00"
+        "summary": "前置第7章《小本子》V1.0已提交；读取第8章情节基线准备续写《郑州》。",
+        "next_action": "写第8章周启毕业分配、与林小梅面对面的商议、郑州研究院新人的完整故事，提交 V1.0 正文及考据记录。",
+        "last_success_at": "2026-09-25T17:18:00+08:00"
       },
       "artifacts": [],
       "last_error": null,
