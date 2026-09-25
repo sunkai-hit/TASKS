@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-09-25T17:32:00+08:00",
+  "updated_at": "2026-09-25T17:47:00+08:00",
   "tasks": [
     {
       "id": "TASK-20260925-001",
@@ -125,14 +125,14 @@
         "repo": "sunkai-hit/80-s",
         "path": "chapters/ch09/"
       },
-      "status": "in_progress",
+      "status": "done",
       "priority": "P1",
       "order": 102,
       "depends_on": [
         "TASK-20260925-002"
       ],
       "created_at": "2026-09-25T17:04:00+08:00",
-      "updated_at": "2026-09-25T17:32:00+08:00",
+      "updated_at": "2026-09-25T17:47:00+08:00",
       "max_attempts": 4,
       "attempts": 0,
       "acceptance_criteria": [
@@ -142,11 +142,28 @@
         "已提交至 sunkai-hit/80-s 并在 TASKS checkpoint/artifacts 记录文件链接与提交SHA"
       ],
       "checkpoint": {
-        "summary": "已完成前置第8章，准备第9章周启署名返工、刘建军首次带人、周玲认识陈国强并自己选择、小梅夜校下课与双主线轻松约会。",
-        "next_action": "创作完整《署名》并核验1983–84的图纸职业、初期雇工与城市约会生活，分别入库正文和作者考据。",
-        "last_success_at": "2026-09-25T17:32:00+08:00"
+        "summary": "第九章《署名》完整V1.0与考据记录已入库。修正1980年代汽水开启细节，外部帮手设本市青年且不提前王东城市正式雇员身份、1986正式雇工节点；周玲恋爱和小梅独立夜校线已衔接。",
+        "next_action": "等待第二部分完整联审。",
+        "last_success_at": "2026-09-25T17:47:00+08:00"
       },
-      "artifacts": [],
+      "artifacts": [
+        {
+          "type": "file",
+          "repo": "sunkai-hit/80-s",
+          "ref": "chapters/ch09/manuscript-v1.0.md",
+          "url": "https://github.com/sunkai-hit/80-s/blob/main/chapters/ch09/manuscript-v1.0.md",
+          "commit": "d477af8218104b3762555faa09eb1497711ce99d",
+          "description": "第9章正文"
+        },
+        {
+          "type": "file",
+          "repo": "sunkai-hit/80-s",
+          "ref": "chapters/ch09/research-v1.0.md",
+          "url": "https://github.com/sunkai-hit/80-s/blob/main/chapters/ch09/research-v1.0.md",
+          "commit": "706168603f9b190cfe0b6b7bda0c5bb7faa2b55a",
+          "description": "第9章考据与QA"
+        }
+      ],
       "last_error": null,
       "blocking_reason": null,
       "user_input_needed": null,
@@ -166,14 +183,14 @@
         "repo": "sunkai-hit/80-s",
         "path": "chapters/ch10/"
       },
-      "status": "ready",
+      "status": "in_progress",
       "priority": "P1",
       "order": 103,
       "depends_on": [
         "TASK-20260925-003"
       ],
       "created_at": "2026-09-25T17:04:00+08:00",
-      "updated_at": "2026-09-25T17:04:00+08:00",
+      "updated_at": "2026-09-25T17:47:00+08:00",
       "max_attempts": 4,
       "attempts": 0,
       "acceptance_criteria": [
@@ -183,9 +200,9 @@
         "已提交至 sunkai-hit/80-s 并在 TASKS checkpoint/artifacts 记录文件链接与提交SHA"
       ],
       "checkpoint": {
-        "summary": "已由用户明确授权：按现行第二部分第7—10章完成正式稿；已核对第一部分为第1—6章，当前 v0.2 章结构规定本章标题。",
-        "next_action": "读取 80-s 现行基线、最近正式章节、对应场景链及时代素材；起草并提交第10章《远路》完整初稿，再做史实核验和V1.0修订。",
-        "last_success_at": "2026-09-25T17:04:00+08:00"
+        "summary": "第7–9章已提交，现准备第十章《远路》，1984—85建军/王东真正拓宽供应链，王东首次被远方供应商单独叫名字并取得路线决策权。",
+        "next_action": "先核对1983–85跨地区个体采购/铁路托运史实及第9章帮手安排，再创作《远路》完整V1.0正文与考据记录，最终触发跨章终审。",
+        "last_success_at": "2026-09-25T17:47:00+08:00"
       },
       "artifacts": [],
       "last_error": null,
