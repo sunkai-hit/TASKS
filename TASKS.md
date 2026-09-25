@@ -1,28 +1,29 @@
 # TASKS Dashboard
 
-> 人类可读快照；机器权威数据：`queue/tasks.json`。
+> 本文件是人类可读快照；机器权威数据在 `queue/tasks.json`。
 
 ## 当前状态
 
-- 系统：✅ 自动任务已启用（每小时唤醒，按 AGENT.md 执行）
-- 当前执行：第二部分第7–10章已入库；跨章终审中
-- Ready：4（其中3章依赖前章完成，1项跨章终审依赖全部章节）
-- In Progress：1
+- 系统：✅ 持续任务机制正常，既有每小时自动执行任务仍可在有新队列时使用
+- 当前执行：无
+- Ready：0
+- In Progress：0
 - Waiting User：0
 - Blocked：0
-- Done：4
+- Done：5
 
-## 《没有剧透的中国》第二部分
+## 已完成：《没有剧透的中国》第二部分（第7—10章）
 
-目标仓库：`sunkai-hit/80-s`，承接已完成的第1—6章。按已定章节结构推进，禁止擅自改名或拆章。
+目标仓库：[`sunkai-hit/80-s`](https://github.com/sunkai-hit/80-s)。严格沿用当前34章章节结构及前六章正式稿；本次只交付四章Markdown正式V1.0正文、逐章作者研究与跨章终审，不擅自扩大为Web Book等工作。
 
-| 任务ID | 内容 | 状态 | 依赖 |
-|---|---|---|---|
-| TASK-20260925-001 | 第七章《小本子》正文+考据 V1.0 | done | 无 |
-| TASK-20260925-002 | 第八章《郑州》正文+考据 V1.0 | done | 001 |
-| TASK-20260925-003 | 第九章《署名》正文+考据 V1.0 | done | 002 |
-| TASK-20260925-004 | 第十章《远路》正文+考据 V1.0 | done | 003 |
-| TASK-20260925-005 | 第二部分（第7—10章）前后章连续性终审 | in_progress | 001–004 |
+| 任务ID | 交付内容 | 状态 |
+|---|---|---|
+| TASK-20260925-001 | [第七章《小本子》](https://github.com/sunkai-hit/80-s/blob/main/chapters/ch07/manuscript-v1.0.md) / [作者考据](https://github.com/sunkai-hit/80-s/blob/main/chapters/ch07/research-v1.0.md) | done |
+| TASK-20260925-002 | [第八章《郑州》](https://github.com/sunkai-hit/80-s/blob/main/chapters/ch08/manuscript-v1.0.md) / [作者考据](https://github.com/sunkai-hit/80-s/blob/main/chapters/ch08/research-v1.0.md) | done |
+| TASK-20260925-003 | [第九章《署名》](https://github.com/sunkai-hit/80-s/blob/main/chapters/ch09/manuscript-v1.0.md) / [作者考据](https://github.com/sunkai-hit/80-s/blob/main/chapters/ch09/research-v1.0.md) | done |
+| TASK-20260925-004 | [第十章《远路》](https://github.com/sunkai-hit/80-s/blob/main/chapters/ch10/manuscript-v1.0.md) / [作者考据](https://github.com/sunkai-hit/80-s/blob/main/chapters/ch10/research-v1.0.md) | done |
+| TASK-20260925-005 | [第二部分联合终审](https://github.com/sunkai-hit/80-s/blob/main/book/part-2-review.md) | done |
 
-每章成果分别保存到目标仓库的 `chapters/chXX/manuscript-v1.0.md` 与 `research-v1.0.md`；完成一章即提交并记录 SHA。自动任务按队列从断点继续；如章节稿尚未完成，不得提前标记 done。
+全部5项任务达到本次写作范围的验收要求，最后统一修订已写回第七章与其作者考据源文件，所有成果均有GitHub路径与commit记录。
 
+后续如明确要求继续第三部分或第11章，再创建新队列任务；自动调度在队列为空时不发提醒。
