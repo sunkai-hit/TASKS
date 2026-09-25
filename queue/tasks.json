@@ -1,5 +1,211 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-09-24T14:31:00+08:00",
-  "tasks": []
+  "updated_at": "2026-09-25T17:04:00+08:00",
+  "tasks": [
+    {
+      "id": "TASK-20260925-001",
+      "title": "《没有剧透的中国》第七章《小本子》",
+      "description": "在 sunkai-hit/80-s 仓库创作第二部分第7章《小本子》，必须先读 PROJECT.md、WORKFLOW.md、book/chapter-structure-v0.2.md、book/story-bible.md、book/style-guide.md、book/chapter-dual-underlay-map-v0.1.md、相邻章正式稿和必要场景链及时代素材；严格锁定章节名、场景节点、人物关系与有限第三人称，延续前六章克制现实主义，人物故事和1982—1985时代生活双暗线都必须自然成立。先写完整可编辑 Markdown 正文，开展对应场景史实/生活真实性核验并修订为正式V1.0；按已完成章节惯例保存 chapters/ch07/manuscript-v1.0.md 与 research-v1.0.md。不要擅改已完成1-6章、既定章题、34章结构，不必制作额外Web或视觉图。不等整部完结，每章完成即提交GitHub并记录 commit。",
+      "project": {
+        "name": "没有剧透的中国",
+        "repo": "sunkai-hit/80-s",
+        "path": "chapters/ch07/"
+      },
+      "status": "ready",
+      "priority": "P1",
+      "order": 100,
+      "depends_on": [],
+      "created_at": "2026-09-25T17:04:00+08:00",
+      "updated_at": "2026-09-25T17:04:00+08:00",
+      "max_attempts": 4,
+      "attempts": 0,
+      "acceptance_criteria": [
+        "存在 chapters/ch07/manuscript-v1.0.md，覆盖本章既定完整场景并达到此前正式稿的叙事密度，不是梗概或缩写",
+        "存在 chapters/ch07/research-v1.0.md，核查当时的职业/经济/交通/生活细节并据此修订正文",
+        "核对前后章衔接、现行人物设定、场景单POV及人生暗线和时代暗线",
+        "已提交至 sunkai-hit/80-s 并在 TASKS checkpoint/artifacts 记录文件链接与提交SHA"
+      ],
+      "checkpoint": {
+        "summary": "已由用户明确授权：按现行第二部分第7—10章完成正式稿；已核对第一部分为第1—6章，当前 v0.2 章结构规定本章标题。",
+        "next_action": "读取 80-s 现行基线、最近正式章节、对应场景链及时代素材；起草并提交第7章《小本子》完整初稿，再做史实核验和V1.0修订。",
+        "last_success_at": "2026-09-25T17:04:00+08:00"
+      },
+      "artifacts": [],
+      "last_error": null,
+      "blocking_reason": null,
+      "user_input_needed": null,
+      "tags": [
+        "novel",
+        "80-s",
+        "part-2",
+        "writing"
+      ]
+    },
+    {
+      "id": "TASK-20260925-002",
+      "title": "《没有剧透的中国》第八章《郑州》",
+      "description": "在 sunkai-hit/80-s 仓库创作第二部分第8章《郑州》，必须先读 PROJECT.md、WORKFLOW.md、book/chapter-structure-v0.2.md、book/story-bible.md、book/style-guide.md、book/chapter-dual-underlay-map-v0.1.md、相邻章正式稿和必要场景链及时代素材；严格锁定章节名、场景节点、人物关系与有限第三人称，延续前六章克制现实主义，人物故事和1982—1985时代生活双暗线都必须自然成立。先写完整可编辑 Markdown 正文，开展对应场景史实/生活真实性核验并修订为正式V1.0；按已完成章节惯例保存 chapters/ch08/manuscript-v1.0.md 与 research-v1.0.md。不要擅改已完成1-6章、既定章题、34章结构，不必制作额外Web或视觉图。不等整部完结，每章完成即提交GitHub并记录 commit。",
+      "project": {
+        "name": "没有剧透的中国",
+        "repo": "sunkai-hit/80-s",
+        "path": "chapters/ch08/"
+      },
+      "status": "ready",
+      "priority": "P1",
+      "order": 101,
+      "depends_on": [
+        "TASK-20260925-001"
+      ],
+      "created_at": "2026-09-25T17:04:00+08:00",
+      "updated_at": "2026-09-25T17:04:00+08:00",
+      "max_attempts": 4,
+      "attempts": 0,
+      "acceptance_criteria": [
+        "存在 chapters/ch08/manuscript-v1.0.md，覆盖本章既定完整场景并达到此前正式稿的叙事密度，不是梗概或缩写",
+        "存在 chapters/ch08/research-v1.0.md，核查当时的职业/经济/交通/生活细节并据此修订正文",
+        "核对前后章衔接、现行人物设定、场景单POV及人生暗线和时代暗线",
+        "已提交至 sunkai-hit/80-s 并在 TASKS checkpoint/artifacts 记录文件链接与提交SHA"
+      ],
+      "checkpoint": {
+        "summary": "已由用户明确授权：按现行第二部分第7—10章完成正式稿；已核对第一部分为第1—6章，当前 v0.2 章结构规定本章标题。",
+        "next_action": "读取 80-s 现行基线、最近正式章节、对应场景链及时代素材；起草并提交第8章《郑州》完整初稿，再做史实核验和V1.0修订。",
+        "last_success_at": "2026-09-25T17:04:00+08:00"
+      },
+      "artifacts": [],
+      "last_error": null,
+      "blocking_reason": null,
+      "user_input_needed": null,
+      "tags": [
+        "novel",
+        "80-s",
+        "part-2",
+        "writing"
+      ]
+    },
+    {
+      "id": "TASK-20260925-003",
+      "title": "《没有剧透的中国》第九章《署名》",
+      "description": "在 sunkai-hit/80-s 仓库创作第二部分第9章《署名》，必须先读 PROJECT.md、WORKFLOW.md、book/chapter-structure-v0.2.md、book/story-bible.md、book/style-guide.md、book/chapter-dual-underlay-map-v0.1.md、相邻章正式稿和必要场景链及时代素材；严格锁定章节名、场景节点、人物关系与有限第三人称，延续前六章克制现实主义，人物故事和1982—1985时代生活双暗线都必须自然成立。先写完整可编辑 Markdown 正文，开展对应场景史实/生活真实性核验并修订为正式V1.0；按已完成章节惯例保存 chapters/ch09/manuscript-v1.0.md 与 research-v1.0.md。不要擅改已完成1-6章、既定章题、34章结构，不必制作额外Web或视觉图。不等整部完结，每章完成即提交GitHub并记录 commit。",
+      "project": {
+        "name": "没有剧透的中国",
+        "repo": "sunkai-hit/80-s",
+        "path": "chapters/ch09/"
+      },
+      "status": "ready",
+      "priority": "P1",
+      "order": 102,
+      "depends_on": [
+        "TASK-20260925-002"
+      ],
+      "created_at": "2026-09-25T17:04:00+08:00",
+      "updated_at": "2026-09-25T17:04:00+08:00",
+      "max_attempts": 4,
+      "attempts": 0,
+      "acceptance_criteria": [
+        "存在 chapters/ch09/manuscript-v1.0.md，覆盖本章既定完整场景并达到此前正式稿的叙事密度，不是梗概或缩写",
+        "存在 chapters/ch09/research-v1.0.md，核查当时的职业/经济/交通/生活细节并据此修订正文",
+        "核对前后章衔接、现行人物设定、场景单POV及人生暗线和时代暗线",
+        "已提交至 sunkai-hit/80-s 并在 TASKS checkpoint/artifacts 记录文件链接与提交SHA"
+      ],
+      "checkpoint": {
+        "summary": "已由用户明确授权：按现行第二部分第7—10章完成正式稿；已核对第一部分为第1—6章，当前 v0.2 章结构规定本章标题。",
+        "next_action": "读取 80-s 现行基线、最近正式章节、对应场景链及时代素材；起草并提交第9章《署名》完整初稿，再做史实核验和V1.0修订。",
+        "last_success_at": "2026-09-25T17:04:00+08:00"
+      },
+      "artifacts": [],
+      "last_error": null,
+      "blocking_reason": null,
+      "user_input_needed": null,
+      "tags": [
+        "novel",
+        "80-s",
+        "part-2",
+        "writing"
+      ]
+    },
+    {
+      "id": "TASK-20260925-004",
+      "title": "《没有剧透的中国》第十章《远路》",
+      "description": "在 sunkai-hit/80-s 仓库创作第二部分第10章《远路》，必须先读 PROJECT.md、WORKFLOW.md、book/chapter-structure-v0.2.md、book/story-bible.md、book/style-guide.md、book/chapter-dual-underlay-map-v0.1.md、相邻章正式稿和必要场景链及时代素材；严格锁定章节名、场景节点、人物关系与有限第三人称，延续前六章克制现实主义，人物故事和1982—1985时代生活双暗线都必须自然成立。先写完整可编辑 Markdown 正文，开展对应场景史实/生活真实性核验并修订为正式V1.0；按已完成章节惯例保存 chapters/ch10/manuscript-v1.0.md 与 research-v1.0.md。不要擅改已完成1-6章、既定章题、34章结构，不必制作额外Web或视觉图。不等整部完结，每章完成即提交GitHub并记录 commit。",
+      "project": {
+        "name": "没有剧透的中国",
+        "repo": "sunkai-hit/80-s",
+        "path": "chapters/ch10/"
+      },
+      "status": "ready",
+      "priority": "P1",
+      "order": 103,
+      "depends_on": [
+        "TASK-20260925-003"
+      ],
+      "created_at": "2026-09-25T17:04:00+08:00",
+      "updated_at": "2026-09-25T17:04:00+08:00",
+      "max_attempts": 4,
+      "attempts": 0,
+      "acceptance_criteria": [
+        "存在 chapters/ch10/manuscript-v1.0.md，覆盖本章既定完整场景并达到此前正式稿的叙事密度，不是梗概或缩写",
+        "存在 chapters/ch10/research-v1.0.md，核查当时的职业/经济/交通/生活细节并据此修订正文",
+        "核对前后章衔接、现行人物设定、场景单POV及人生暗线和时代暗线",
+        "已提交至 sunkai-hit/80-s 并在 TASKS checkpoint/artifacts 记录文件链接与提交SHA"
+      ],
+      "checkpoint": {
+        "summary": "已由用户明确授权：按现行第二部分第7—10章完成正式稿；已核对第一部分为第1—6章，当前 v0.2 章结构规定本章标题。",
+        "next_action": "读取 80-s 现行基线、最近正式章节、对应场景链及时代素材；起草并提交第10章《远路》完整初稿，再做史实核验和V1.0修订。",
+        "last_success_at": "2026-09-25T17:04:00+08:00"
+      },
+      "artifacts": [],
+      "last_error": null,
+      "blocking_reason": null,
+      "user_input_needed": null,
+      "tags": [
+        "novel",
+        "80-s",
+        "part-2",
+        "writing"
+      ]
+    },
+    {
+      "id": "TASK-20260925-005",
+      "title": "第二部分连续性终审",
+      "description": "完成《没有剧透的中国》第二部分第7—10章后，连读1—10章正式稿，重点检查第6→7与第7→8→9→10衔接、1982—1985时序、既定人物年龄/职业及34章锁定结构、双暗线、时间跳跃、章节篇幅与重复桥段；仅对7—10章做必要低风险修订并记录发现，绝不擅改1—6或后续大纲。将终审记录保存在80-s/book/part-2-review.md，更新四项任务中的最终成果引用。",
+      "project": {
+        "name": "没有剧透的中国",
+        "repo": "sunkai-hit/80-s",
+        "path": "book/part-2-review.md"
+      },
+      "status": "ready",
+      "priority": "P1",
+      "order": 105,
+      "depends_on": [
+        "TASK-20260925-001",
+        "TASK-20260925-002",
+        "TASK-20260925-003",
+        "TASK-20260925-004"
+      ],
+      "created_at": "2026-09-25T17:04:00+08:00",
+      "updated_at": "2026-09-25T17:04:00+08:00",
+      "max_attempts": 3,
+      "attempts": 0,
+      "acceptance_criteria": [
+        "第7–10章的V1.0正式稿及核验记录均已入库",
+        "终审记录含跨章连续性与双暗线复核结果",
+        "若需微修已写回目标仓库，提交链接已记录"
+      ],
+      "checkpoint": {
+        "summary": "等待第二部分四章各自完成后进行终审。",
+        "next_action": "逐篇读取 chapters/ch01-reboot 到 ch10 正式稿，输出终审记录 book/part-2-review.md，必要时修订 ch07–ch10 并更新状态。",
+        "last_success_at": "2026-09-25T17:04:00+08:00"
+      },
+      "artifacts": [],
+      "last_error": null,
+      "blocking_reason": null,
+      "user_input_needed": null,
+      "tags": [
+        "novel",
+        "80-s",
+        "part-2",
+        "review"
+      ]
+    }
+  ]
 }
