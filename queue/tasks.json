@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-09-25T17:47:00+08:00",
+  "updated_at": "2026-09-25T18:01:00+08:00",
   "tasks": [
     {
       "id": "TASK-20260925-001",
@@ -183,14 +183,14 @@
         "repo": "sunkai-hit/80-s",
         "path": "chapters/ch10/"
       },
-      "status": "in_progress",
+      "status": "done",
       "priority": "P1",
       "order": 103,
       "depends_on": [
         "TASK-20260925-003"
       ],
       "created_at": "2026-09-25T17:04:00+08:00",
-      "updated_at": "2026-09-25T17:47:00+08:00",
+      "updated_at": "2026-09-25T18:01:00+08:00",
       "max_attempts": 4,
       "attempts": 0,
       "acceptance_criteria": [
@@ -200,11 +200,28 @@
         "已提交至 sunkai-hit/80-s 并在 TASKS checkpoint/artifacts 记录文件链接与提交SHA"
       ],
       "checkpoint": {
-        "summary": "第7–9章已提交，现准备第十章《远路》，1984—85建军/王东真正拓宽供应链，王东首次被远方供应商单独叫名字并取得路线决策权。",
-        "next_action": "先核对1983–85跨地区个体采购/铁路托运史实及第9章帮手安排，再创作《远路》完整V1.0正文与考据记录，最终触发跨章终审。",
-        "last_success_at": "2026-09-25T17:47:00+08:00"
+        "summary": "第10章《远路》完整V1.0正文与考据记录已入库，1984—85远途供货、何老板直接呼名王东、交付路线规划等节点齐全。",
+        "next_action": "等待第二部分终审复核。",
+        "last_success_at": "2026-09-25T18:01:00+08:00"
       },
-      "artifacts": [],
+      "artifacts": [
+        {
+          "type": "file",
+          "repo": "sunkai-hit/80-s",
+          "ref": "chapters/ch10/manuscript-v1.0.md",
+          "url": "https://github.com/sunkai-hit/80-s/blob/main/chapters/ch10/manuscript-v1.0.md",
+          "commit": "0caa409fd9826e37f464027031d540335e987c63",
+          "description": "第10章正文"
+        },
+        {
+          "type": "file",
+          "repo": "sunkai-hit/80-s",
+          "ref": "chapters/ch10/research-v1.0.md",
+          "url": "https://github.com/sunkai-hit/80-s/blob/main/chapters/ch10/research-v1.0.md",
+          "commit": "2d81d49398a2bebc96b7ce6a54db527706e53f97",
+          "description": "第10章考据与QA"
+        }
+      ],
       "last_error": null,
       "blocking_reason": null,
       "user_input_needed": null,
@@ -224,7 +241,7 @@
         "repo": "sunkai-hit/80-s",
         "path": "book/part-2-review.md"
       },
-      "status": "ready",
+      "status": "in_progress",
       "priority": "P1",
       "order": 105,
       "depends_on": [
@@ -234,7 +251,7 @@
         "TASK-20260925-004"
       ],
       "created_at": "2026-09-25T17:04:00+08:00",
-      "updated_at": "2026-09-25T17:04:00+08:00",
+      "updated_at": "2026-09-25T18:01:00+08:00",
       "max_attempts": 3,
       "attempts": 0,
       "acceptance_criteria": [
@@ -243,9 +260,9 @@
         "若需微修已写回目标仓库，提交链接已记录"
       ],
       "checkpoint": {
-        "summary": "等待第二部分四章各自完成后进行终审。",
-        "next_action": "逐篇读取 chapters/ch01-reboot 到 ch10 正式稿，输出终审记录 book/part-2-review.md，必要时修订 ch07–ch10 并更新状态。",
-        "last_success_at": "2026-09-25T17:04:00+08:00"
+        "summary": "第7–10章各自完整正文、考据记录全部落库；开始逐项核对正式第1–10章、现行结构与双暗线，必要微修只作用7–10章。",
+        "next_action": "重新 fetch ch01-reboot–ch10 正式稿及第7–10章研究记录，检查章节内容/衔接/错别字/年代词/关键节点，编写 book/part-2-review.md，必要时对7–10微修并写回研究记录；然后更新所有成果 SHA、标 done。",
+        "last_success_at": "2026-09-25T18:01:00+08:00"
       },
       "artifacts": [],
       "last_error": null,
