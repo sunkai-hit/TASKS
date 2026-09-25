@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-09-25T18:01:00+08:00",
+  "updated_at": "2026-09-25T18:21:35+09:00",
   "tasks": [
     {
       "id": "TASK-20260925-001",
@@ -16,7 +16,7 @@
       "order": 100,
       "depends_on": [],
       "created_at": "2026-09-25T17:04:00+08:00",
-      "updated_at": "2026-09-25T17:18:00+08:00",
+      "updated_at": "2026-09-25T18:21:35+09:00",
       "max_attempts": 4,
       "attempts": 0,
       "acceptance_criteria": [
@@ -26,9 +26,9 @@
         "已提交至 sunkai-hit/80-s 并在 TASKS checkpoint/artifacts 记录文件链接与提交SHA"
       ],
       "checkpoint": {
-        "summary": "第七章《小本子》V1.0完整正文及作者考据/连续性QA已分别提交到80-s，完成五线自然接力，未提前第8、10章节点。",
+        "summary": "第七章《小本子》完整V1.0已入库，终审对1982普通饭店直接外宾客房接待的无依据设定作微修，并同步作者研究记录。",
         "next_action": "任务已完成，等待最终第7–10章连读终审。",
-        "last_success_at": "2026-09-25T17:18:00+08:00"
+        "last_success_at": "2026-09-25T18:21:35+09:00"
       },
       "artifacts": [
         {
@@ -36,16 +36,16 @@
           "repo": "sunkai-hit/80-s",
           "ref": "chapters/ch07/manuscript-v1.0.md",
           "url": "https://github.com/sunkai-hit/80-s/blob/main/chapters/ch07/manuscript-v1.0.md",
-          "description": "第7章全文",
-          "commit": "f451b7b3de182080a92b434fd489db2d4a038e0c"
+          "description": "第7章全文（跨章审查后微修）",
+          "commit": "c518cc262f11f1ffe180357de078da337987dbcd"
         },
         {
           "type": "file",
           "repo": "sunkai-hit/80-s",
           "ref": "chapters/ch07/research-v1.0.md",
           "url": "https://github.com/sunkai-hit/80-s/blob/main/chapters/ch07/research-v1.0.md",
-          "description": "第7章考据与QA",
-          "commit": "830fe26300243217d807d4c49d6cd657d79f4e80"
+          "description": "第7章考据/饭店客人资格复核",
+          "commit": "d5f78e0e79982c39f35f9e380791fc42ba0067da"
         }
       ],
       "last_error": null,
@@ -74,7 +74,7 @@
         "TASK-20260925-001"
       ],
       "created_at": "2026-09-25T17:04:00+08:00",
-      "updated_at": "2026-09-25T17:32:00+08:00",
+      "updated_at": "2026-09-25T18:21:35+09:00",
       "max_attempts": 4,
       "attempts": 0,
       "acceptance_criteria": [
@@ -86,7 +86,7 @@
       "checkpoint": {
         "summary": "已提交第8章《郑州》完整V1.0正文及1981–82计划分配制度相关作者核验；已修正1982年不必要复印件物件。",
         "next_action": "等待第7–10章联合终审。",
-        "last_success_at": "2026-09-25T17:32:00+08:00"
+        "last_success_at": "2026-09-25T18:21:35+09:00"
       },
       "artifacts": [
         {
@@ -132,7 +132,7 @@
         "TASK-20260925-002"
       ],
       "created_at": "2026-09-25T17:04:00+08:00",
-      "updated_at": "2026-09-25T17:47:00+08:00",
+      "updated_at": "2026-09-25T18:21:35+09:00",
       "max_attempts": 4,
       "attempts": 0,
       "acceptance_criteria": [
@@ -144,7 +144,7 @@
       "checkpoint": {
         "summary": "第九章《署名》完整V1.0与考据记录已入库。修正1980年代汽水开启细节，外部帮手设本市青年且不提前王东城市正式雇员身份、1986正式雇工节点；周玲恋爱和小梅独立夜校线已衔接。",
         "next_action": "等待第二部分完整联审。",
-        "last_success_at": "2026-09-25T17:47:00+08:00"
+        "last_success_at": "2026-09-25T18:21:35+09:00"
       },
       "artifacts": [
         {
@@ -190,7 +190,7 @@
         "TASK-20260925-003"
       ],
       "created_at": "2026-09-25T17:04:00+08:00",
-      "updated_at": "2026-09-25T18:01:00+08:00",
+      "updated_at": "2026-09-25T18:21:35+09:00",
       "max_attempts": 4,
       "attempts": 0,
       "acceptance_criteria": [
@@ -202,7 +202,7 @@
       "checkpoint": {
         "summary": "第10章《远路》完整V1.0正文与考据记录已入库，1984—85远途供货、何老板直接呼名王东、交付路线规划等节点齐全。",
         "next_action": "等待第二部分终审复核。",
-        "last_success_at": "2026-09-25T18:01:00+08:00"
+        "last_success_at": "2026-09-25T18:21:35+09:00"
       },
       "artifacts": [
         {
@@ -241,7 +241,7 @@
         "repo": "sunkai-hit/80-s",
         "path": "book/part-2-review.md"
       },
-      "status": "in_progress",
+      "status": "done",
       "priority": "P1",
       "order": 105,
       "depends_on": [
@@ -251,7 +251,7 @@
         "TASK-20260925-004"
       ],
       "created_at": "2026-09-25T17:04:00+08:00",
-      "updated_at": "2026-09-25T18:01:00+08:00",
+      "updated_at": "2026-09-25T18:21:35+09:00",
       "max_attempts": 3,
       "attempts": 0,
       "acceptance_criteria": [
@@ -260,11 +260,27 @@
         "若需微修已写回目标仓库，提交链接已记录"
       ],
       "checkpoint": {
-        "summary": "第7–10章各自完整正文、考据记录全部落库；开始逐项核对正式第1–10章、现行结构与双暗线，必要微修只作用7–10章。",
-        "next_action": "重新 fetch ch01-reboot–ch10 正式稿及第7–10章研究记录，检查章节内容/衔接/错别字/年代词/关键节点，编写 book/part-2-review.md，必要时对7–10微修并写回研究记录；然后更新所有成果 SHA、标 done。",
-        "last_success_at": "2026-09-25T18:01:00+08:00"
+        "summary": "已对第1–10章正式稿做前后章和人物时序联审，第7–10章每章正文及research文件均从GitHub重新读取验证；修正第7章外宾不当客房设定，此外第8章纸条、第9章汽水瓶盖已事先校正。已提交book/part-2-review.md，阶段验收通过。",
+        "next_action": "终审任务已完成；后续若收到用户请求，按第11章《婚礼》现行结构继续，不主动创建新写作任务。",
+        "last_success_at": "2026-09-25T18:21:35+09:00"
       },
-      "artifacts": [],
+      "artifacts": [
+        {
+          "type": "file",
+          "repo": "sunkai-hit/80-s",
+          "ref": "book/part-2-review.md",
+          "url": "https://github.com/sunkai-hit/80-s/blob/main/book/part-2-review.md",
+          "commit": "c841907e098588b17fe9882af2a4abc05e6bd613",
+          "description": "第二部分四章联合终审及双暗线/史实审阅"
+        },
+        {
+          "type": "url",
+          "repo": "sunkai-hit/80-s",
+          "ref": "chapters/ch07–ch10",
+          "url": "https://github.com/sunkai-hit/80-s/tree/main/chapters",
+          "description": "四章V1.0正文与作者核验记录"
+        }
+      ],
       "last_error": null,
       "blocking_reason": null,
       "user_input_needed": null,
