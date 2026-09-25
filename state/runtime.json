@@ -1,12 +1,12 @@
 {
   "schema_version": "1.0",
   "running": true,
-  "current_task_id": "TASK-20260925-004",
+  "current_task_id": "TASK-20260925-005",
   "run_id": "manual-20260925-novel-part2",
   "run_started_at": "2026-09-25T17:06:00+08:00",
-  "heartbeat_at": "2026-09-25T17:47:00+08:00",
+  "heartbeat_at": "2026-09-25T18:01:00+08:00",
   "last_finished_at": null,
-  "last_result": "chapter_9_done_chapter_10_in_progress",
+  "last_result": "part_2_manuscripts_complete_review_in_progress",
   "stale_lock_minutes": 90,
   "executor": "chatgpt",
   "notes": "Persistent runtime state for TASKS automation."
